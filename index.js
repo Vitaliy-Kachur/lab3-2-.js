@@ -8,7 +8,7 @@ for (let i = 0; i < width; i++)
 {
     arr.push([])
     for(let j = 0; j < height; j++){
-        arr[i][j] = Math.floor(Math.random()*100)+1
+        arr[i][j] = Math.floor(Math.random()*91)+10
     }
 }
 console.log(arr)
